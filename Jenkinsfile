@@ -9,7 +9,7 @@ pipeline {
         }
         stage ("Tag") {
             steps {
-                sh 'docker tag image2 shaikmustafa/paytm:bus'
+                sh 'docker tag image2 sravan41/paytm:bus'
             }
         }
         stage('Push') {
